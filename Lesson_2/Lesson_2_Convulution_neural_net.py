@@ -16,6 +16,7 @@ def load_data_set(batch_size):
     train_data, test_data = utils.load_data_fashion_mnist(batch_size)
     return train_data, test_data
 
+
 # 尝试使用GPU运算：try/except，
 # 思路：（1）先尝试用GPU构造数组，(2) 若成功，则令ctx=mx.gpu(),（3）若无GPU，则报错，令ctx = mx.cpu()
 def try_ctx():
