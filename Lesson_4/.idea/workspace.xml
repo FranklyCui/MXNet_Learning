@@ -10,31 +10,37 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Lesson_4$Lesson_4_Image_Augmentation.coverage" NAME="Lesson_4_Image_Augmentation Coverage Results" MODIFIED="1530548219399" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Lesson_4$Lesson_4_gluon_BatchNorm.coverage" NAME="Lesson_4_gluon_BatchNorm Coverage Results" MODIFIED="1530359864267" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Lesson_4$GoogleLeNet.coverage" NAME="GoogleLeNet Coverage Results" MODIFIED="1530437022610" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Lesson_4$Lesson_4_nin.coverage" NAME="Lesson_4_nin Coverage Results" MODIFIED="1530359956108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Lesson_4$Lesson_4_ResNet_2015_s_champion.coverage" NAME="Lesson_4_ResNet_2015's_champion Coverage Results" MODIFIED="1530521156277" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Lesson_4$Lesson_4_DenseNet.coverage" NAME="Lesson_4_DenseNet Coverage Results" MODIFIED="1530521236530" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Lesson_4$Lesson_4_DenseNet.coverage" NAME="Lesson_4_DenseNet Coverage Results" MODIFIED="1530528291983" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Lesson_4_DenseNet.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Lesson_4_DenseNet.py">
+      <file leaf-file-name="Lesson_4_Image_Augmentation.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Lesson_4_Image_Augmentation.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="430">
-              <caret line="103" column="41" selection-start-line="103" selection-start-column="41" selection-end-line="103" selection-end-column="41" />
+            <state relative-caret-position="279">
+              <caret line="85" lean-forward="true" selection-start-line="85" selection-end-line="85" />
               <folding>
-                <element signature="e#179#202#0" expanded="true" />
+                <element signature="e#39#70#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Lesson_4_ResNet_2015's_champion.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Lesson_4_ResNet_2015's_champion.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="145" column="58" lean-forward="true" selection-start-line="145" selection-start-column="58" selection-end-line="145" selection-end-column="58" />
             </state>
           </provider>
         </entry>
@@ -56,6 +62,7 @@
         <option value="$PROJECT_DIR$/GoogleLeNet.py" />
         <option value="$PROJECT_DIR$/Lesson_4_ResNet_2015's_champion.py" />
         <option value="$PROJECT_DIR$/Lesson_4_DenseNet.py" />
+        <option value="$PROJECT_DIR$/Lesson_4_Image_Augmentation.py" />
       </list>
     </option>
   </component>
@@ -68,30 +75,17 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="726" />
-    <option name="y" value="27" />
-    <option name="width" value="1002" />
-    <option name="height" value="516" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="711" />
+    <option name="y" value="36" />
+    <option name="width" value="1131" />
+    <option name="height" value="537" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Lesson_4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Lesson_4" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -112,7 +106,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Lesson_4_DenseNet">
+  <component name="RunManager" selected="Python.Lesson_4_Image_Augmentation">
     <configuration name="GoogleLeNet" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Lesson_4" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -146,6 +140,25 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lesson_4_DenseNet.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="Lesson_4_Image_Augmentation" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Lesson_4" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lesson_4_Image_Augmentation.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -214,9 +227,11 @@
       <item itemvalue="Python.GoogleLeNet" />
       <item itemvalue="Python.Lesson_4_ResNet_2015's_champion" />
       <item itemvalue="Python.Lesson_4_DenseNet" />
+      <item itemvalue="Python.Lesson_4_Image_Augmentation" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Lesson_4_Image_Augmentation" />
         <item itemvalue="Python.Lesson_4_DenseNet" />
         <item itemvalue="Python.Lesson_4_ResNet_2015's_champion" />
         <item itemvalue="Python.GoogleLeNet" />
@@ -238,7 +253,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
+    <frame x="711" y="36" width="1131" height="537" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -246,12 +261,12 @@
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.3295099" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.26068822" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.31267604" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.3295099" />
       <window_info content_ui="combo" id="Project" order="0" weight="0.21725067" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" id="SciView" order="4" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32991913" />
+      <window_info anchor="right" x="1443" y="147" width="422" height="802" id="SciView" order="5" weight="0.424" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39937434" />
@@ -261,9 +276,33 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" x="0" y="0" width="414" height="892" id="Documentation" order="5" side_tool="true" weight="0.2981132" />
+      <window_info anchor="right" x="0" y="0" width="414" height="892" id="Documentation" order="4" side_tool="true" weight="0.2981132" />
       <window_info anchor="bottom" id="Message" order="0" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.21725067" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31908238" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.3295099" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" x="0" y="0" width="414" height="892" id="Documentation" order="4" side_tool="true" weight="0.2981132" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3295099" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.3295099" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="right" id="SciView" order="5" weight="0.32938007" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39937434" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -273,17 +312,41 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="4" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Lesson_4_Image_Augmentation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1386">
+          <caret line="65" column="14" selection-start-line="65" selection-start-column="14" selection-end-line="65" selection-end-column="14" />
+          <folding>
+            <element signature="e#39#70#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/gluon/lib/python3.6/site-packages/mxnet/image/image.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14542">
+          <caret line="667" selection-start-line="667" selection-end-line="668" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lesson_4_Image_Augmentation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="12" column="66" lean-forward="true" selection-start-line="12" selection-start-column="66" selection-end-line="12" selection-end-column="66" />
+          <folding>
+            <element signature="e#39#70#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Lesson_4_DenseNet.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="858">
           <caret line="41" column="16" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
-          <folding>
-            <element signature="e#179#202#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -333,8 +396,43 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="430">
           <caret line="103" column="41" selection-start-line="103" selection-start-column="41" selection-end-line="103" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/gluon/lib/python3.6/random.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="744" selection-start-line="744" selection-end-line="744" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/gluon/lib/python3.6/site-packages/mxnet/ndarray/gen_op.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="4734" column="4" selection-start-line="4734" selection-start-column="4" selection-end-line="4734" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/gluon/lib/python3.6/site-packages/mxnet/image/image.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="677" column="20" lean-forward="true" selection-start-line="677" selection-start-column="20" selection-end-line="677" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/gluon/lib/python3.6/site-packages/matplotlib/pyplot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-482">
+          <caret line="1384" column="4" selection-start-line="1384" selection-start-column="4" selection-end-line="1384" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lesson_4_Image_Augmentation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="85" lean-forward="true" selection-start-line="85" selection-end-line="85" />
           <folding>
-            <element signature="e#179#202#0" expanded="true" />
+            <element signature="e#39#70#0" expanded="true" />
           </folding>
         </state>
       </provider>
