@@ -15,7 +15,10 @@ ResNet设计思想:
             变宽, 复杂度平方增加,易overfitting.
     2. 残差网络: 
             残差: 并联两个通道, 一个浅的小网络, 一个深层大网络, 小网络易于训练, 但模型复杂度不够, 没有拟合到的部分叫'残差', 由深层大网络拟合.
-
+ResNet优点: 并不必GoogLeNet好, 深知GoogLeNet效率更高, ***ResNet为当前主流网络**
+    1. 结构清晰, 易懂;
+    2. 设计简单, channel数具有规律型, kernel值一致, 扩展性好(深度扩展仅需添加几行);
+    3. 容易训练(具有jumpy跳跃通路) 
 """
 
 from mxnet import nd
@@ -42,7 +45,7 @@ class Residual(nn.Block):
             # path 1 的第一层卷积: relu激活
             self.conv_1 = nn.Conv2D(channels=channels, kernel_size=3, padding=1, strides=strides)
             self.bn_1 = nn.BatchNorm(axis=1)        # 沿channel方向批量归一化
-            # path 2 的第二层卷积: 未relu激活, strides始终为1, 图样尺寸不变
+            # path 1 的第二层卷积: 未relu激活, strides始终为1, 图样尺寸不变
             self.conv_2 = nn.Conv2D(channels=channels, kernel_size=3, padding=1)
             self.bn_2 = nn.BatchNorm(axis=1)
 
@@ -79,20 +82,72 @@ class ResNet(nn.Block):
             # Block 1: 一层卷积Conv2D
             b1 = nn.Conv2D(64, kernel_size=7, strides=2)
 
-            # Block 2
+            # Block 2: 一层Max池化 + 两层Residual网络块
+            b2 = nn.Sequential()
+            b2.add(
+                nn.MaxPool2D(pool_size=3, strides=2),
+                Residual(64),
+                Residual(64)
+            )
 
+            # Block 3: 两层Residual网络块
+            b3 = nn.Sequential()
+            b3.add(
+                Residual(128, same_shape=False),
+                Residual(128)
+            )
+
+            # Block 4: 两层Residual网络块
+            b4 = nn.Sequential()
+            b4.add(
+                Residual(256, same_shape=False),
+                Residual(256)
+            )
+
+            # Block 5: 两层Residual网络块
+            b5 = nn.Sequential()
+            b5.add(
+                Residual(512, same_shape=False),
+                Residual(512)
+            )
+
+            # Block 6: 一层AvgPool池化 + 一层Dense全连接
+            b6 = nn.Sequential()
+            b6.add(
+                nn.AvgPool2D(pool_size=3),
+                nn.Dense(num_classes)
+            )
+
+            # chain all Blocks together
+            self.net = nn.Sequential()
+            self.net.add(b1, b2, b3, b4, b5, b6)
+
+    def forward(self, X):
+        """override the forward method"""
+        out = X
+        for index, block in enumerate(self.net):
+            out = block(out)
+            if self.verbose:
+                print('block %d out.shape is: %s' % (index+1, out.shape))
+        return out
 
 
 
 if __name__=='__main__':
 
     # 实例化Residual
-    res = Residual(3, same_shape=False)
-    res.initialize()
+    # res = Residual(3, same_shape=False)
+    # res.initialize()
+    #
+    # X = nd.random.uniform(shape=(5, 8, 16, 16))
+    # y = res(X)
 
-    X = nd.random.uniform(shape=(5, 8, 16, 16))
-    y = res(X)
-
-    print('y.shape is: ', y.shape)
+    # print('y.shape is: ', y.shape)
     # print("out_path_1.shape is: ", res.out_path_1.shape)
     # print("out_path_2.shape is: ", res.out_path_2.shape)
+
+    resnet = ResNet(10, True)
+    resnet.initialize()
+
+    X = nd.random.uniform(low=0, high=10, shape=(5, 3, 128, 128))
+    y = resnet(X)
