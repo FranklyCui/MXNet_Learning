@@ -3,7 +3,8 @@ __pycache__/
 *.py[cod]
 *$py.class
 # 自己添加
-.idea
+.idea/
+*.xml
 
 # C extensions
 *.so
