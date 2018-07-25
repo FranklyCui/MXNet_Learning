@@ -5,6 +5,7 @@ __pycache__/
 # 自己添加
 .idea/
 *.xml
+data/
 
 # C extensions
 *.so
